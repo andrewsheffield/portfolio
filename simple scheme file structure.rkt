@@ -62,16 +62,17 @@
     ((cdr (list-ref emp 2)) new-sal)
 )
 
-(define prof (Employee "Austin" "Professor" 99999999999999999))
+(define programmer1 (Employee "Andrew" "Code Master" 1))
 
-(get-name prof)
-(get-position prof)
-(get-salary prof)
+(get-name programmer1)
+(get-position programmer1)
+(get-salary programmer1)
 
-(set-name prof "Tom the Mighty")
-(set-position prof "Master of Time and Space")
-(set-salary prof 12345678)
+(set-name programmer1 "Andrew J Sheffield")
+(set-position programmer1 "Commander of the Universe")
+(set-salary programmer1 2)
+;;Got a pay raise! lol
 
-(get-name prof)
-(get-position prof)
-(get-salary prof)
+(get-name programmer1)
+(get-position programmer1)
+(get-salary programmer1)
